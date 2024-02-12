@@ -1,0 +1,74 @@
+.header-box{
+    height: 150px;
+    text-align: center;
+    /*background-color: #f45a51;*/
+    margin-bottom: 10px;
+}
+
+.header-image{
+    height: 120px;
+}
+
+.content{
+    /*display: flex;*/
+    width: 1400px;
+    margin: auto;
+    /*background-color: #000;*/
+}
+
+.card{
+    text-align: center;
+    /*background-color: #aaf;*/
+    /*border: 1px solid black;*/
+    width: 462.3px;
+    display: inline-block;
+}
+
+.card-right{
+    text-align: center;
+    /*background-color: #aaf;*/
+    /*border: 1px solid black;*/
+    width: 462.3px;
+    display: inline-block;
+}
+
+.card-image{
+    height: 500px;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.card-price{
+    font-weight:300;
+}
+
+.footer{
+    /*background-color: #f11b12;*/
+    display: flex;
+    height: 130px;
+}
+
+.footer-1{
+    text-align: center;
+    width: 500px;
+    margin:auto;
+}
+
+.footer-2{
+    text-align: center;
+    width: 500px;
+    margin:auto;
+}
+
+.footer-3{
+    text-align: center;
+    width: 500px;
+    margin:auto;
+}
+
+.footer-p{
+    text-transform: uppercase;
+    font-weight: 400;
+}
