@@ -11,17 +11,20 @@
 
 .content{
     /*display: flex;*/
-    width: 1400px;
+    width: 90vw;
     margin: auto;
     /*background-color: #000;*/
 }
 
 .card{
+    padding-top: 1%;
     text-align: center;
     /*background-color: #aaf;*/
     /*border: 1px solid black;*/
-    width: 462.3px;
+    /*width: 462.3px;*/
+    width: 29.8vw;
     display: inline-block;
+    margin: auto;
 }
 
 .card-right{
@@ -33,7 +36,8 @@
 }
 
 .card-image{
-    height: 500px;
+    margin-left: auto;
+    height: 80vh;
 }
 
 .card-title{
