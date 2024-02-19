@@ -2,17 +2,19 @@
     height: 150px;
     text-align: center;
     /*background-color: #f45a51;*/
-    margin-bottom: 10px;
+    margin-bottom: 10vh;
 }
 
 .header-image{
+    margin-top: 20px;
     height: 120px;
 }
 
 .content{
-    /*display: flex;*/
-    width: 90vw;
+    /*display: inline-flex;*/
+    width: 92vw;
     margin: auto;
+    justify-content: center;
     /*background-color: #000;*/
 }
 
@@ -50,8 +52,11 @@
 
 .footer{
     /*background-color: #f11b12;*/
+    align-items: center;
+    margin-top: 50px;
     display: flex;
     height: 130px;
+    margin-bottom: 20px;
 }
 
 .footer-1{

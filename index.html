@@ -6,6 +6,7 @@
     <title>SDW Store</title>
     <link rel="shortcut icon" href="images/sdw logo.jpg" type="image/jpg">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
     <header class="header">
@@ -14,64 +15,130 @@
         </div>
     </header>
     <section class="content">
-        <div class="card">
-            <img class="card-image" src="images/item1.jpg" alt="item 1">
-            <h3 class="card-title">Худи SDW</h3>
-            <p class="card-price">Цена: 5000 руб.</p>
-        </div>
-        <div class="card">
-            <img class="card-image" src="images/item2.jpg" alt="item 2">
-            <h3 class="card-title">SDW Skull Beanie</h3>
-            <p class="card-price">Цена: 1700 руб.</p>
-        </div>
-        <div class="card">
-            <img class="card-image" src="images/item3.jpg" alt="item 3">
-            <h3 class="card-title">SDW Balaclava Red</h3>
-            <p class="card-price">Цена: 1700 руб.</p>
-        </div>
-        <br/>
-        <div class="card">
-            <img class="card-image" src="images/item4.jpg" alt="item 4">
-            <h3 class="card-title">However Balaclava Red</h3>
-            <p class="card-price">Цена: 1700 руб.</p>
-        </div>
-         <div class="card">
-            <img class="card-image" src="images/item5.jpg" alt="item 5">
-            <h3 class="card-title">However Red Tee</h3>
-            <p class="card-price">Цена: 2700 руб.</p>
-        </div>
-        <div class="card">
-            <img class="card-image" src="images/item6.jpg" alt="item 6">
-            <h3 class="card-title">However Ski Mask Red Season</h3>
-            <p class="card-price">Цена: 1200 руб.</p>
-        </div>
-        <br/>
-        <div class="card">
-            <img class="card-image" src="images/item7.jpg" alt="item 7">
-            <h3 class="card-title">However Black Red Tee</h3>
-            <p class="card-price"">Цена: 2700 руб.</p>
-        </div>
-         <div class="card">
-            <img class="card-image" src="images/item8.jpg" alt="item 8">
-            <h3 class="card-title">However White Tee</h3>
-            <p class="card-price">Цена: 2700 руб.</p>
-        </div>
-        <div class="card">
-            <img class="card-image" src="images/item9.jpg" alt="item 9">
-            <h3 class="card-title">Футболка Swaga Prisutstvuet Чёрная</h3>
-            <p class="card-price">Цена: 1200 руб.</p>
-        </div>
-        <br/>
-        <div class="card">
-            <img class="card-image" src="images/item10.jpg" alt="item 10">
-            <h3 class="card-title">Футболка Swaga Prisutstvuet Белая</h3>
-            <p class="card-price">Цена: 2700 руб.</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item1.jpg" class="card-img-top" alt="item 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Худи SDW</h5>
+                    <p class="card-text">Цена: 5000 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item2.jpg" class="card-img-top" alt="item 2">
+                  <div class="card-body">
+                    <h5 class="card-title">SDW Skull Beanie</h5>
+                    <p class="card-text">Цена: 1700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item3.jpg" class="card-img-top" alt="item 3">
+                  <div class="card-body">
+                    <h5 class="card-title">SDW Balaclava Red</h5>
+                    <p class="card-text">Цена: 1700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item4.jpg" class="card-img-top" alt="item 4">
+                  <div class="card-body">
+                    <h5 class="card-title">However Balaclava Red</h5>
+                    <p class="card-text">Цена: 1700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item5.jpg" class="card-img-top" alt="item 5">
+                  <div class="card-body">
+                    <h5 class="card-title">However Red Tee</h5>
+                    <p class="card-text">Цена: 2700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item6.jpg" class="card-img-top" alt="item 6">
+                  <div class="card-body">
+                    <h5 class="card-title">However Ski Mask Red Season</h5>
+                    <p class="card-text">Цена: 1200 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item7.jpg" class="card-img-top" alt="item 7">
+                  <div class="card-body">
+                    <h5 class="card-title">However Black Red Tee</h5>
+                    <p class="card-text">Цена: 2700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item8.jpg" class="card-img-top" alt="item 8">
+                  <div class="card-body">
+                    <h5 class="card-title">However White Tee</h5>
+                    <p class="card-text">Цена: 2700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item9.jpg" class="card-img-top" alt="item 9">
+                  <div class="card-body">
+                    <h5 class="card-title">Футболка Swaga Prisutstvuet Чёрная</h5>
+                    <p class="card-text">Цена: 1200 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item10.jpg" class="card-img-top" alt="item 10">
+                  <div class="card-body">
+                    <h5 class="card-title">Футболка Swaga Prisutstvuet Белая</h5>
+                    <p class="card-text">Цена: 2700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item8.jpg" class="card-img-top" alt="item 8">
+                  <div class="card-body">
+                    <h5 class="card-title">However White Tee</h5>
+                    <p class="card-text">Цена: 2700 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item9.jpg" class="card-img-top" alt="item 9">
+                  <div class="card-body">
+                    <h5 class="card-title">Футболка Swaga Prisutstvuet Чёрная</h5>
+                    <p class="card-text">Цена: 1200 руб.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 rounded-3 border-3">
+                  <img src="images/item10.jpg" class="card-img-top" alt="item 10">
+                  <div class="card-body">
+                    <h5 class="card-title">Футболка Swaga Prisutstvuet Белая</h5>
+                    <p class="card-text">Цена: 2700 руб.</p>
+                  </div>
+                </div>
+              </div>
         </div>
             
     </section>
     <footer class="footer">
         <div class="footer-1">
-            <button class="footer-button">Связаться с нами</button>
+            <button class="btn btn-dark">Связаться с нами</button>
         </div> 
         <div class="footer-2">
             <p class="footer-p">All rights reserved. © 2024 SDW</p>
