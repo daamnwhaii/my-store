@@ -41,6 +41,7 @@ html, body{
 .card-animation:hover{
     background-color: rgb(237, 241, 245);
     border: 1px solid black;
+    box-shadow: 10px 5px 5px grey;
 }
 
 /*-----------FOOTER-----------*/
