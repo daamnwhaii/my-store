@@ -66,6 +66,11 @@ html, body{
     margin-bottom: 45px;
 }
 
+.mybutton{
+    border-radius: 15px!important;
+}
+
+
 .footer__info{
     display: flex;
     padding-top: 7px;
@@ -83,6 +88,6 @@ html, body{
 
 .sm-image{
     height: 25px;
-    margin: 20px;
+    margin-left: 35px;
 }
 
