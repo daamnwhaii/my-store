@@ -93,9 +93,13 @@ html, body{
 
 /*-----------ITEM CARDS-----------*/
 
-
-a{
+.links{
     text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    text-decoration: underline;
 }
 
 .itemcard-head{
