@@ -103,7 +103,7 @@ html, body{
 }
 
 .itemcard-head{
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 100%;
     height: 50px;
 }
@@ -113,4 +113,41 @@ html, body{
     font-weight: 500;
     font-size: 20px;
     margin-left: 1150px;
+}
+
+.item-block{
+    display: flex;
+}
+
+
+.item-photo{
+    height: 50%;
+    width: 50%;
+    /*background-color: bisque;*/
+}
+
+.item-img{
+    width: 600px;
+    height: 833px;
+}
+
+.item-desc{
+    margin-left: 45px;
+    margin-top: 120px;
+    width: 50%;
+    /*background-color:cadetblue;*/
+}
+
+.size-block{
+    display:flex;
+}
+
+.order-button{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: black;
 }
